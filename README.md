@@ -36,7 +36,7 @@ o The Report.pdf documents the evaluation results of each hash function.
 
 o A user can choose one of the other implemented hash functions to be used by the system instead of the default one if they choose to do so.
 
-\n
+
 
 
 5. count_collisions method: returns the number of collisions caused by a hash function.
