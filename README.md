@@ -29,9 +29,13 @@ Next, the interface will display the count of collisions, the count of unique wo
 3. Separate chaining is implemented to handle collisions.
 
 4. Five different hash functions are designed and implemented. The default hash function for the system is determined by verifying performance (discussed in the Report.pdf) over a large sample of text files.
+
 o The performance of each hash function is evaluated in terms of the number of collisions when applied on the same dataset files. The hash function causing the least number of collisions, on average across all the files, is set as the default hash function to use by the system.
+
 o The Report.pdf documents the evaluation results of each hash function.
+
 o A user can choose one of the other implemented hash functions to be used by the system instead of the default one if they choose to do so.
+
 
 5. count_collisions method: returns the number of collisions caused by a hash function.
 
@@ -45,6 +49,9 @@ o A user can choose one of the other implemented hash functions to be used by th
 
 Tokenization:
 ● Each sentence is split by whitespace in order to extract words.
+
 ● Punctuation marks (“.”, “,”, “\” , “!”, “?”, “;”) attached to the end of a word are ignored.
+
 ● The cases of the alphabet are ignored (function tolower() used)
+
 ○ For example, "Token?" is counted as an instance of "token".
