@@ -36,6 +36,8 @@ o The Report.pdf documents the evaluation results of each hash function.
 
 o A user can choose one of the other implemented hash functions to be used by the system instead of the default one if they choose to do so.
 
+\n
+
 
 5. count_collisions method: returns the number of collisions caused by a hash function.
 
@@ -47,7 +49,8 @@ o A user can choose one of the other implemented hash functions to be used by th
 
 9. find_max() method: returns the word with the highest frequency. The running time of this method is O(1). The Heap data structure is used to represent the set of entries.
 
-Tokenization:
+
+### Tokenization:
 ● Each sentence is split by whitespace in order to extract words.
 
 ● Punctuation marks (“.”, “,”, “\” , “!”, “?”, “;”) attached to the end of a word are ignored.
