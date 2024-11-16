@@ -1,7 +1,7 @@
 # Word-Count-Wizard
 
 ## Introduction
-In this project, I design and implement a Word Count Wizard! The system should can count the number of unique words in the entire text provided by the user, return the frequency of any word in that given text, among other operations. The wizard takes the input text and organizes it in a hash table. 
+In this project, I design and implement a Word Count Wizard! The system can count the number of unique words in the entire text provided by the user, return the frequency of any word in that given text, among other operations. The wizard takes the input text and organizes it in a hash table. 
 
 This program is created by utilizing object-oriented programming (OOP) principles and data structures (Hash Maps, Hash Tables, Heaps, Lists). All the data
 structures are implemented manually  (no STL based containers used).
